@@ -4,7 +4,7 @@ then
   git clone https://github.com/sahanhisharasl/xandria.git 
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Xandria
+  git clone $UPSTREAM_REPO /Xandriabboott
 fi
 cd /EvaMaria
 pip3 install -U -r requirements.txt
